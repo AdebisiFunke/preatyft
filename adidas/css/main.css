@@ -1,12 +1,15 @@
 * {padding: 0; margin: 0;}
 body{font:20px "Montserrat", san-serif; line-height: 1.8;}
 p{font-size:18px}
-.adidas_logo{width:300px}
+h3{margin-bottom:20px;}
 .navbar-default{background-color:#fff;border:none; border-bottom:12px solid #006}
 .navbar-right { margin-right: 20px;}
 ul.nav.navbar-nav.navbar-right>li>a{color:#006;text-transform:uppercase;color:#006}
 ul.nav.navbar-nav.navbar-right>li>a:hover{background-color:#006;color:#fff;}
-.setborder{border:solid 1px #999;margin:2px 0}
+.adidas_logo{width:300px}
+.panel{padding:5px;border:2px solid #d5d0d0}
+.panel img{width:100%;}
+.setpad{padding:5px;text-align:center}
 .btn-lg{background-color:#006;border:none;}
 .createborder{margin-top:10px; padding: 8px; background: #006; color:#fff;}
 .removeleftpad{margin-left:-15px}
@@ -14,8 +17,9 @@ ul.nav.navbar-nav.navbar-right>li>a:hover{background-color:#006;color:#fff;}
 .carousel-control.right,.carousel-control.left{background-image:none;color:#006;opacity:1}
 .carousel-indicators li {border-color:#fff; }
 .carousel-indicators li.active {background-color:#fff; }
-h3{margin-bottom:20px;}
 .general_hd{background-color:#006;color:#fff;}
+
+.btn-primary{background-color:#006;}
 footer{background-color:#006; width:100%;height:450px;color:#fff;padding-top:30px;font-size:18px}
 footer ul>li{list-style-type:none;text-align:left}
 footer .col-md-3:nth-of-type(2){padding-left:120px;}footer .col-md-3:nth-of-type(3){padding-left:90px}
@@ -29,9 +33,7 @@ footer div.col-md-3>h4:last-of-type{text-align:left;}
 @media (max-width:768px) { .navbar-header > a > img{margin:-5px 0 0 0;}
 .navbar-toggle.collapsed{background:#006}
 .navbar-default .navbar-toggle .icon-bar {background-color:rgb(208,104,18) ;}
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #fff;
-}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {background-color: #fff;}
 footer {height: auto; }
 footer ul>li{text-align:center}
 footer .col-md-3:nth-of-type(2){padding-left:0;}footer .col-md-3:nth-of-type(3){padding-left:0}
