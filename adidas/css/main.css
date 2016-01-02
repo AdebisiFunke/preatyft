@@ -13,12 +13,11 @@ ul.nav.navbar-nav.navbar-right>li>a:hover{background-color:#006;color:#fff;}
 .btn-lg{background-color:#006;border:none;}
 .createborder{margin-top:10px; padding: 8px; background: #006; color:#fff;}
 .removeleftpad{margin-left:-15px}
-.setborder, h4,header,.createborder > ul>li,footer,.copyright{text-align:center}
+h4,header,.createborder > ul>li,footer,.copyright{text-align:center}
 .carousel-control.right,.carousel-control.left{background-image:none;color:#006;opacity:1}
 .carousel-indicators li {border-color:#fff; }
 .carousel-indicators li.active {background-color:#fff; }
 .general_hd{background-color:#006;color:#fff;}
-
 .btn-primary{background-color:#006;}
 footer{background-color:#006; width:100%;height:450px;color:#fff;padding-top:30px;font-size:18px}
 footer ul>li{list-style-type:none;text-align:left}
