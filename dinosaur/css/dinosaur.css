@@ -1,0 +1,90 @@
+﻿body { font: 400 18px "Time New Roman", serif; line-height: 1.8; color: #000; }
+h2 {font-size: 24px;  text-transform: uppercase;color:#004;font-weight: 600;margin-bottom: 30px;  }
+h4 { font-size: 24px;line-height: 1.375em;   color: #004;font-weight: 400;margin-bottom: 30px;      }
+h3{color:#fff}
+.container-fluid {padding: 60px 50px; }
+.bg-grey {background-color: #f6f6f6;}
+.logo-small {color:  #10253f;font-size: 50px;}
+.logo {color:  #10253f;font-size: 200px;}
+.thumbnail {padding: 0 0 15px 0;border: none;border-radius: 0;}
+.thumbnail img {width: 100%; height: 100%;margin-bottom: 10px;}
+.carousel-control.right, .carousel-control.left { background-image: none;color: #10253f; }
+.carousel-indicators li {border-color:  #10253f; }
+.carousel-indicators li.active {background-color:  #10253f; }
+.item h4 {font-size: 19px;line-height: 1.375em;font-weight: 400;font-style: italic; margin: 70px 0;}
+.item span { font-style: normal;  }
+ .panel {border: 1px solid #f4511e; border-radius: 0 !important;transition: box-shadow 0.5s; }
+.panel:hover { box-shadow: 5px 0px 40px rgba(0,0,0, .2);}
+.panel-footer .btn:hover { border: 1px solid #f4511e;background-color: #fff !important;color: #f4511e;}
+ .panel-heading {color: #fff !important; background-color: #f4511e !important;padding: 25px;border-bottom: 1px solid transparent;border-top-left-radius: 0px;
+            border-top-right-radius: 0px; border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;}
+ .panel-footer { background-color: white !important;}
+.panel-footer h3 {font-size: 32px; }
+ .panel-footer h4 {color: #aaa;font-size: 14px;}
+.panel-footer .btn {margin: 15px 0; background-color: #f4511e;color: #fff;}
+.jumbotron{ height:500px; padding-bottom:0;margin-bottom:0;background-image:url("../img/design.jpg");background-size: cover;}
+.navbar-toggle{background-color:#10253f}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {background-color:#10253f;}
+ .navbar-default .navbar-toggle .icon-bar {background-color:#c6d7f1}
+.navbar { margin-bottom: 0;z-index: 9999;border: 0;font-weight:bold;line-height: 1.42857143 !important;
+            letter-spacing: 4px;border-radius: 0; font-family: "Times New Roman",Times,serif; }
+.navbar img{display: inline;width: 250px;margin-top:-10px}
+.navbar-default { background-color:rgba(0,0,0, .2); }   
+.navbar-nav li:hover,  .navbar-nav li a:hover, .navbar-nav li.active a {background-color:#c6d7f1;}
+.navbar-default .navbar-nav>li>a{color:#10253f}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #c6d7f1;
+}
+.sidelogo{margin-top:50px}
+.sidelogo>img{width:100%}
+footer .glyphicon {font-size: 20px; margin-bottom: 20px; color:#c6d7f1;}
+.slideanim {visibility: hidden;}
+.slide { animation-name: slide;-webkit-animation-name: slide;animation-duration: 1s;-webkit-animation-duration: 1s;
+            visibility: visible;}
+.round-icon { background-color: #10253f; border-radius: 60%; display: table; font-size: 3rem;height: 100px; margin: 0 auto 1rem;width: 100px;}
+ [class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+    color: #fff; font-size: 60px; margin-left: 0;
+}
+.footer{background-color:#10253f}
+.footer>div.col-md-3:first-of-type{padding-left:70px}
+.footer>div.col-md-3>h3{padding:20px 0 0 40px;color:#fff;text-transform:uppercase;font-size:18px;}
+.footer>div.col-md-3>ul,.footer>div.col-md-3>ul>li>a{list-style-type:none;color: #999;}
+footer>p{color:#999}
+.footer > div.col-md-3 > ul > li > a:hover { text-decoration: none;}
+.footer>div.col-md-3>ul.navbar>li>a{font:"Time New Roman",serif;letter-spacing:0;font-weight:normal}
+  @keyframes slide {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }
+
+ @-webkit-keyframes slide {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }
+
+ @media screen and (max-width: 768px) {
+ .col-sm-4 {  text-align: center;margin: 25px 0;}
+ .btn-lg { width: 100%; margin-bottom: 35px; }
+.footer>div.col-md-3:first-of-type{padding-left:0}
+.footer>div.col-md-3>h3{padding:0;text-align:center}
+.footer>div.col-md-3>ul,.footer>div.col-md-3>h3{text-align:center;padding-left:0}
+
+ }
+@media screen and (max-width: 480px) {
+            .logo { font-size: 150px;}
+        }
+    
