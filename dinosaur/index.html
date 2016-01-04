@@ -442,10 +442,9 @@
         </a>
         <p>&copy; 2015 Dinosaur Bootstrap Template By Funke Makanjuola - All Rights Reserved.</p>
     </footer>
-
-    <script>
+<script>
         $(document).ready(function () {
-            // Add smooth scrolling to all links in navbar + footer link
+            //For all links in navbar and footer add smooth scrolling.
             $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
 
                 // Prevent default anchor click behavior
@@ -454,18 +453,18 @@
                 // Store hash
                 var hash = this.hash;
 
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                // Add smooth page scroll using Jquery animate
+                // Time taken to scroll to the specified area is 900 milliseconds 
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top
                 }, 900, function () {
 
-                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    //when done scrolling add hash (#) to URL
                     window.location.hash = hash;
                 });
             });
 
-            // Slide in elements on scroll
+            // on scroll slide in elements 
             $(window).scroll(function () {
                 $(".slideanim").each(function () {
                     var pos = $(this).offset().top;
@@ -478,6 +477,5 @@
             });
         })
     </script>
-
 </body>
 </html>
