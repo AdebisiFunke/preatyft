@@ -41,10 +41,6 @@ h3 {
     font-size: 50px;
 }
 
-.top-margin {
-    margin-top: 30px;
-}
-
 .navbar {
     margin-bottom: 0;
     z-index: 9999;
@@ -106,15 +102,13 @@ navbar-toggle, .navbar-default.navbar-toggle {
     background-size: cover;
 }
 
-    .jumbotron img {
-        margin-top: 50px;
-    }
+.jumbotron>h3:first-of-type{margin-top:200px}
 
 .sidelogo {
     margin-top: 40px;
 }
 
-    .sidelogo > img {
+.sidelogo > img {
         width: 100%;
     }
 
