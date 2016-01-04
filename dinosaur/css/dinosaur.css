@@ -102,7 +102,7 @@ navbar-toggle, .navbar-default.navbar-toggle {
     background-size: cover;
 }
 
-.jumbotron>h3:first-of-type{margin-top:200px}
+.jumbotron>h1{margin-top:200px;color:#fff}
 
 .sidelogo {
     margin-top: 40px;
