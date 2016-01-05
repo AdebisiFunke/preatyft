@@ -248,3 +248,6 @@ footer, .btn-lg {
         margin-bottom: 35px;
     }
 }
+@media (min-width: 768px)and (max-width:864px){
+    nav{font-size:14px}
+}
