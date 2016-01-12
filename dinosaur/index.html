@@ -50,8 +50,8 @@
         </div>
     </nav>
     <div class="jumbotron text-center">
-        <img alt="banner" src="img/funke.jpg" class="img-circle" />
-        <h3>Dinosaur Template By Funke Makanjuola</h3>
+           <h1>Dinosaur Template </h1>
+       <h3>By: Funke Makanjuola</h3>
         <h3>I am Available for Hire</h3>
         <h3>Contact: mak_funke@yahoo.com</h3>
 
@@ -308,12 +308,12 @@
         <div class="row">
             <div class="col-sm-5">
                 <p>
-                    This template is designed by Funke Makanjuola.
+                     This is a responsive bootstrap template by Funke Makanjuola.
                     I  believe you will need a customized website suitable for your business. Please contact me today. I am available for hire.
                 </p>
                 <p>
                     <span class="glyphicon glyphicon-map-marker"></span>
-                    Dayton, US
+                    Dayton, Ohio, U.S.A.
                 </p>
                 <p>
                     <span class="glyphicon glyphicon-envelope"></span>
@@ -440,12 +440,11 @@
         <a href="#myPage" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
-        <p>&copy; 2015 Dinosaur Bootstrap Theme By Funke Makanjuola - All Rights Reserved.</p>
+        <p>&copy; 2015 Dinosaur Bootstrap Template By Funke Makanjuola - All Rights Reserved.</p>
     </footer>
-
-    <script>
+<script>
         $(document).ready(function () {
-            // Add smooth scrolling to all links in navbar + footer link
+            //For all links in navbar and footer add smooth scrolling.
             $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
 
                 // Prevent default anchor click behavior
@@ -454,18 +453,18 @@
                 // Store hash
                 var hash = this.hash;
 
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                // Add smooth page scroll using Jquery animate
+                // Time taken to scroll to the specified area is 900 milliseconds 
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top
                 }, 900, function () {
 
-                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    //when done scrolling add hash (#) to URL
                     window.location.hash = hash;
                 });
             });
 
-            // Slide in elements on scroll
+            // on scroll slide in elements 
             $(window).scroll(function () {
                 $(".slideanim").each(function () {
                     var pos = $(this).offset().top;
@@ -478,6 +477,5 @@
             });
         })
     </script>
-
 </body>
 </html>
