@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Simple Form Element Usage</title>
+    <meta name="description" content="Simple Form Element Usage">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1>Simple Form Elements Usage By Funke Makanjuola</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Your Face</legend>
+            <label for="your_image">Your image:</label>
+            <input id="your_image" type="file" name="file_upload" required />
+            <br><label for="preview">Image preview:</label>
+            <img id="preview" src="#" alt="my image" />
+        </fieldset>
+        <fieldset>
+            <legend>Your General Details</legend>
+            <label for="fullname">Name:</label>
+            <input type="text" placeholder="Your full name" id="fullname" name="fullname" required />
+            <br><label for="gender">Gender:</label>
+            <input type="radio" id="male" name="male" required>Male
+            <input type="radio" id="female" name="female" required>Female
+            <br><label>Age:</label><input placeholder="18" name="age" type="number" required />
+            <br><label for="dob">Date of Birth:</label><input type="date" placeholder="dd/mm/yy" id="dob" name="dob" />
+            <br> <label for="color">Favourite Color:</label>
+            <input type="color" id="color" name="color" />
+            <br> <label for="country">Which Country:</label><select id="country">
+                <option>No Selection</option>
+                <option>USA</option>
+                <option>France</option>
+                <option>Canada</option>
+                <option>Australia</option>
+                <option>Japan</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Your Indicators</legend>
+            <label for="height">Height:</label><span class="span1">Short</span><input id="height" type="range" min="0" max="100" name="height" /><span class="span1">Tall</span>
+            <br>   <label for="salary">Salary:</label><span class="span1">Poor</span><input id="salary" type="range" min="0" max="100" name="salary" /><span class="span1">Rich</span>
+        </fieldset>
+        <fieldset>
+            <legend>Your Contact Information</legend>
+            <label for="email">Email:</label><input id="email" type="email" name="email" required />
+            <br>   <label for="mobile">Mobile:</label><input id="mobile" type="tel" name="mobile" />
+            <br>   <label for="address">Address:</label><textarea rows="5" cols="50" id="address" name="address"></textarea>
+            <br>  <label for="contact">Method to contact you:</label><input id="contact1" type="checkbox" name="contact1">Email
+            <input type="checkbox" id="contact2" name="contact2">Whatsapp<input type="checkbox" id="contact3" name="contact3">In-app-chart
+        </fieldset>
+        <input type="submit" name="submit" />
+    </form>
+</body>
+</html>
+

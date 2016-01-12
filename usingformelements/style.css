@@ -1,0 +1,10 @@
+﻿body{font-size:18px}
+fieldset{background:#fff8ff ;border: 10px solid #008000;margin-bottom: 10px; width: 720px; }
+label{width: 180px;display: inline-block;text-align: right; vertical-align: text-top;}
+span{padding:10px }
+.span1{background-color:#00ff7f;}
+span{width: 40px;padding: 2px}
+textarea{width: 360px;height: 50px;}
+label[type=checkbox]{width: auto}
+label[type=range]{text-align:center}
+input[type=submit]{background:#008000;font-weight:bold;padding:10px;color:#fff}
