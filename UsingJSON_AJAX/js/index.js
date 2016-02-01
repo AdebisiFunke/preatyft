@@ -1,9 +1,9 @@
 ﻿window.onload = function () {
 
 
-    /* Find HTML elements in the DOM is by using the element id and
-             * return the element as an object
-             */
+    /* Find HTML elements in the DOM by using the element id and
+    * return the element as an object
+    */
     var states = document.getElementById('state');
     var counries = document.getElementById('countries');
     var _msg_error = document.getElementById('msg_error');
