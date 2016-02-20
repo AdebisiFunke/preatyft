@@ -1,0 +1,6 @@
+body{color:white;background:indigo}
+h1{text-align: center}
+.container{width: 40%;height: 300px;margin: 10px auto;padding: 20px}
+#displaylocation{padding-bottom: 50px;color:#76ff03;font-size: 25px}
+#display_temp{font-size: 50px;display:inline;float: right;color:#76ff03}
+#displayweatherinfo{float: left;display:inline;text-align: left;color:#00ff00;}
