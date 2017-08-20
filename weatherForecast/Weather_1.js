@@ -11,7 +11,7 @@ window.onload=function(){getUserLocation();  };
 //will be used by getWeatherData function
 function getUserLocation() {
   if (navigator.geolocation) {
-    var timeoutVal = 200 * 1000 * 1000;
+    var timeoutVal = 10 * 1000 * 1000;
     navigator.geolocation.getCurrentPosition(getWeatherData,
       display_error, {
         enableHighAccuracy: true,
