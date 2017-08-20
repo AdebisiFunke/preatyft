@@ -27,7 +27,7 @@ function getUserLocation() {
 function display_error(error) {
   var errors = {
     1: 'Permission denied',
-    2: 'Position unavailable',
+    2: 'Turn On your Location Service',
     3: 'Request timeout'
   };
   alert("Error: " + errors[error.code]);
@@ -57,6 +57,9 @@ function getWeatherData(position) {
   xmlhttp.send();
 
 }
+
+
+
 
 
 
