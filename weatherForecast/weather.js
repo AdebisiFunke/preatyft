@@ -4,7 +4,9 @@ var IMAGE_URL = "http://openweathermap.org/img/w/";
 
 
     
-window.onload=function(){getUserLocation();  };
+window.onload=function(){
+	 alert("Enable Location Service on your device");
+	getUserLocation();  };
 
 //This function will get user location coordinates that 
 //will be used by getWeatherData function
@@ -26,12 +28,12 @@ function getUserLocation() {
 //This function that will handle errors to request. 
 function display_error(error) {
   var errors = {
-    1: 'Turn On your Location Service',
-    //2: 'Permission denied',
-    //3: 'Request timeout'
+    1: 'Permission denied',
+    2: 'Turn On your Location Service',
+    3: 'Request timeout'
   };
- // alert("Error: " + errors[error.code]);
-	alert("Turn On your Location Service");
+ alert("Error: " + errors[error.code]);
+	
 }
 
 //Make asynchronous request and get weather data using AJAX. 
