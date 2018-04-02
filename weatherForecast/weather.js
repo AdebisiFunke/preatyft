@@ -27,8 +27,8 @@ function getUserLocation() {
 function display_error(error) {
   var errors = {
     1: 'Turn On your Location Service',
-    2: 'Permission denied',
-    3: 'Request timeout'
+    //2: 'Permission denied',
+    //3: 'Request timeout'
   };
   alert("Error: " + errors[error.code]);
 }
