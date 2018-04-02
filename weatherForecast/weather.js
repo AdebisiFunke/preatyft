@@ -30,7 +30,8 @@ function display_error(error) {
     //2: 'Permission denied',
     //3: 'Request timeout'
   };
-  alert("Error: " + errors[error.code]);
+ // alert("Error: " + errors[error.code]);
+	alert("Error: " + 'Turn On your Location Service');
 }
 
 //Make asynchronous request and get weather data using AJAX. 
