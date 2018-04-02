@@ -31,7 +31,7 @@ function display_error(error) {
     //3: 'Request timeout'
   };
  // alert("Error: " + errors[error.code]);
-	alert("Error: " + 'Turn On your Location Service');
+	alert("Turn On your Location Service");
 }
 
 //Make asynchronous request and get weather data using AJAX. 
