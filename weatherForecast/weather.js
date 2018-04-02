@@ -4,13 +4,12 @@ var IMAGE_URL = "http://openweathermap.org/img/w/";
 
 
     
-window.onload=function(){
-	 alert("Enable Location Service on your device");
-	getUserLocation();  };
+window.onload=function(){getUserLocation();  };
 
 //This function will get user location coordinates that 
 //will be used by getWeatherData function
 function getUserLocation() {
+	alert("Enable Location Service on your device");
   if (navigator.geolocation) {
     var timeoutVal = 10 * 1000 * 1000;
     navigator.geolocation.getCurrentPosition(getWeatherData,
