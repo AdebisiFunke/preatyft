@@ -1,2 +1,2 @@
 # preatyft.github.io
-Bootstrap Website Template By Funke Makanjuola
+Bootstrap Website Template By Funke Adebisi
